@@ -288,3 +288,8 @@ footer#footer a {
 footer#footer a:hover {
     text-decoration: underline;
 }
+
+footer#footer ul{
+  margin: 0px;
+  padding: 0px;
+}
