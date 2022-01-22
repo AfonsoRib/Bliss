@@ -50,11 +50,6 @@ main#content header#post-header div {
 }
 footer#footer a {
     color: #ffffff;
-    text-decoration: none;
-}
-
-footer#footer a:hover {
-    text-decoration: underline;
 }
 
 {{- if not (eq .Site.Params.dark "on") -}}
