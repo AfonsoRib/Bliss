@@ -289,7 +289,15 @@ footer#footer a:hover {
     text-decoration: underline;
 }
 
-footer#footer ul{
-  margin: 0px;
-  padding: 0px;
+footer ul{
+  padding: 0;
+  margin: 0;
+}
+
+ul#footer li{
+  display: inline;
+}
+
+ul#footer li:not(:last-of-type):after{
+  content: " | ";
 }

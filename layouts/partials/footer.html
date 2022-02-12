@@ -1,18 +1,9 @@
-
 <footer id="footer">
   <hr>
-  <ul>
-  {{ if isset .Site.Params "author" }}
-  <li style="display: inline">  Copyright © {{ now.Year }} {{ .Site.Params.author }} | </li>
-  {{ end }}
-  {{ if and (isset .Site.Params "licenseurl") (isset .Site.Params "license") }}
-  <li style="display: inline"> <a rel="license" href="{{ .Site.Params.licenseurl }}"> {{ .Site.Params.license }} license </a> </li>
-  {{ end }}
-  {{ if isset .Site.Params "src" }}
-<li style="display: inline">   | <a rel="source" href="{{ .Site.Params.src }}"> source </a> </li>
-  {{ end }}
-  {{ if isset .Site.Params "email" }}
-  <li style="display: inline">   | <a rel="email" href="mailto:{{ .Site.Params.email }}"> email </a> </li>
-  {{ end }}
+  <ul id="footer">
+    <li> Copyright © {{ now.Year }} {{ .Site.Params.author }} </li>
+      {{ range .Site.Menus.footer.ByWeight }}
+    <li> <a id="{{ .Identifier }}" href="{{ .URL }}"> {{ .Name }}</li>
+      {{ end }}
   </ul>
 </footer>
