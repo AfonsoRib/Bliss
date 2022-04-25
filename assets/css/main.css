@@ -52,6 +52,22 @@ main#content a:hover {
     text-decoration: underline;
 }
 
+main#content h1:before{
+    content: "# "
+}
+
+main#content h2:before{
+    content: "## "
+}
+
+main#content h3:before{
+    content: "### "
+}
+
+main#content h4:before{
+    content: "#### "
+}
+
 main#content h1,
 main#content h2,
 main#content h3,
@@ -81,6 +97,10 @@ main#content ul#posts {
 main#content ul#posts li {
     margin: 5px 0;
     padding: 0;
+}
+
+main#content ul#posts li:before {
+    content: "- "
 }
 
 main#content ul#posts small {
@@ -189,7 +209,6 @@ main#content section.footnotes {
 
 footer#footer {
     color: #b3b3b3;
-
 }
 
 footer#footer a {

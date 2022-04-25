@@ -1,5 +1,4 @@
 <header id="banner">
-
     <nav>
       <ul>
 	<li>
@@ -7,7 +6,7 @@
 	</li>
         {{ range .Site.Menus.main.ByWeight -}}
         <li>
-          {{ .Pre }}<a href="{{ .URL }}" title="{{ .Title }}">{{- .Name -}}</a>{{ .Post }}
+          {{ .Pre }}<a href="{{ .URL }}" title="{{ .Title }}">{{- lower .Name -}}</a>{{ .Post }}
         </li>
         {{- end }}
       </ul>
