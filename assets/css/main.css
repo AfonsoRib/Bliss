@@ -48,22 +48,6 @@ main#content a:hover {
     text-decoration: underline;
 }
 
-main#content h1:before{
-    content: "# "
-}
-
-main#content h2:before{
-    content: "## "
-}
-
-main#content h3:before{
-    content: "### "
-}
-
-main#content h4:before{
-    content: "#### "
-}
-
 main#content h1,
 main#content h2,
 main#content h3,
