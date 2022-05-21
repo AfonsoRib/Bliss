@@ -1,36 +1,65 @@
 @media (min-width: 770px) {
-body {
-    width: 50%;
-    line-height: 1.5;
-}
+    body {
+	width: 60%;
+    }
 
-main#content hr {
-    width: 108%;
-    margin-left: -3.8%;
-}
+    main#content hr {
+	width: 108%;
+	margin-left: -3.8%;
+    }
 
-/* index.html styles */
-main#content ul#posts {
-    font-size: 1.15em;
-}
+    /* index.html styles */
+    main#content ul#posts {
+	font-size: 1.15em;
+    }
 
-/* single.html styles */
-main#content img {
-    max-width: 108%;
-    margin-left: -3.8%;
-}
+    /* single.html styles */
+    main#content img {
+	max-width: 108%;
+	margin-left: -3.8%;
+    }
 
-main#content figure {
-    margin-left: -3.8%;
-}
+    main#content figure {
+	margin-left: -3.8%;
+    }
 
-main#content figure img {
-    max-width: 108%;
-}
+    main#content figure img {
+	max-width: 108%;
+    }
 
-main#content pre {
-    width: 108%;
-    margin-left: -3.8%;
-    padding: 1.5rem 2.2rem;
-}
+    main#content pre {
+	width: 108%;
+	margin-left: -3.8%;
+	padding: 1.5rem 2.2rem;
+    }
+    header#banner {
+	height: 100%; /* Full-height: remove this if you want "auto" height */
+	width: calc(1/5*100%); /* Set the width of the sidebar */
+	position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+
+	/* z-index: 1; /\* Stay on top *\/ */
+	top: 0; /* Stay at the top */
+	left: 0;
+	overflow-x: hidden; /* Disable horizontal scroll */
+    }
+
+    header#banner nav {
+	position: absolute;
+	padding-left: 2rem;
+	padding-top: 0;
+	top:0rem;
+    }
+    header#banner h1 {
+	margin: 0px;
+    }
+    header#banner nav ul {
+	margin: 0;
+	padding: 0;
+    }
+
+    header#banner nav ul li {
+	display: block;
+	margin: 0 3px;
+    }
+
 }
