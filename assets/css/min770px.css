@@ -1,11 +1,7 @@
 @media (min-width: 770px) {
-    body {
-	width: 60%;
-    }
-
-    main#content hr {
-	width: 108%;
-	margin-left: -3.8%;
+    main#content {
+	width: 45%;
+	margin:auto;
     }
 
     /* index.html styles */
@@ -63,3 +59,4 @@
     }
 
 }
+

@@ -1,4 +1,4 @@
-@font-face {
+f@font-face {
     font-family: 'hack';
     src: url('/fonts/Hack-Regular.ttf') format('truetype');
     font-weight: normal;
@@ -7,9 +7,7 @@
 body {
     font-size: 1em;
     font-family: hack;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 16px;
+
 }
 
 header#banner {
@@ -36,9 +34,6 @@ header#banner a:hover {
     text-decoration: underline;
 }
 
-main#content{
-    margin-top: 25px;
-}
 main#content a {
     color: #007dfa;
     text-decoration: none;
@@ -79,9 +74,6 @@ main#content ul#posts li {
     padding: 0;
 }
 
-main#content ul#posts li:before {
-    content: "- "
-}
 
 main#content ul#posts small {
     font-size: 0.8em;
@@ -202,6 +194,7 @@ footer#footer a:hover {
 footer ul{
   padding: 0;
   margin: 0;
+  text-align:center;
 }
 
 ul#footer li{
