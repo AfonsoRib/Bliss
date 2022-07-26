@@ -1,4 +1,4 @@
-f@font-face {
+@font-face {
     font-family: 'hack';
     src: url('/fonts/Hack-Regular.ttf') format('truetype');
     font-weight: normal;
@@ -7,7 +7,6 @@ f@font-face {
 body {
     font-size: 1em;
     font-family: hack;
-
 }
 
 header#banner {
