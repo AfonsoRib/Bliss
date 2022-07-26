@@ -1,5 +1,5 @@
 @media (min-width: 770px) {
-    main#content {
+    body {
 	width: 45%;
 	margin:auto;
     }
@@ -28,34 +28,15 @@
 	margin-left: -3.8%;
 	padding: 1.5rem 2.2rem;
     }
-    header#banner {
-	height: 100%; /* Full-height: remove this if you want "auto" height */
-	width: calc(1/5*100%); /* Set the width of the sidebar */
-	position: fixed; /* Fixed Sidebar (stay in place on scroll) */
 
-	/* z-index: 1; /\* Stay on top *\/ */
-	top: 0; /* Stay at the top */
-	left: 0;
-	overflow-x: hidden; /* Disable horizontal scroll */
-    }
-
-    header#banner nav {
-	position: absolute;
-	padding-left: 2rem;
-	padding-top: 0;
-	top:0rem;
-    }
-    header#banner h1 {
-	margin: 0px;
-    }
     header#banner nav ul {
 	margin: 0;
 	padding: 0;
     }
 
     header#banner nav ul li {
-	display: block;
-	margin: 0 3px;
+	display: inline;
+
     }
 
 }

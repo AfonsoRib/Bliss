@@ -7,11 +7,16 @@
 body {
     font-size: 1em;
     font-family: hack;
+    margin: 0;
 }
 
 header#banner {
     margin: 25px 0px 0px;
     font-size: 1.2rem;
+}
+
+header#banner h1 {
+    margin: 0px;
 }
 
 header#banner nav ul {
@@ -21,7 +26,7 @@ header#banner nav ul {
 
 header#banner nav ul li {
     display: inline;
-    margin: 0 3px;
+    margin-right: 3px;
 }
 
 header#banner a { 
