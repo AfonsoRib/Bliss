@@ -32,6 +32,9 @@ header#banner a:hover {
     text-decoration: underline;
 }
 
+main#content {
+    margin: 10px;
+}
 main#content a {
     color: #007dfa;
     text-decoration: none;
@@ -111,8 +114,10 @@ main#content #toc ul, main#content #toc ol {
 }
 
 main#content img {
+    display: block;
     max-width: 100%;
     margin: 0 auto;
+
 }
 
 main#content figure {
