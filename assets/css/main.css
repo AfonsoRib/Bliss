@@ -1,6 +1,6 @@
 body {
-    font-size: 1em;
-    font-family: helvetica;
+    font-size: 1rem;
+    font-family: monospace;
     margin: 0;
 }
 
@@ -16,6 +16,7 @@ header#banner h1 {
 header#banner nav ul {
     margin: 0;
     padding: 0;
+    display: inline;
 }
 
 header#banner nav ul li {
@@ -33,7 +34,7 @@ header#banner a:hover {
 }
 
 main#content {
-    margin: 10px;
+    margin: 0em 2em;
 }
 main#content a {
     color: #007dfa;

@@ -1,0 +1,10 @@
+<li>
+    <hr>
+    <a href="{{ .Permalink }}">
+	<h2>{{ first 50 .Title }} {{if gt (len .Title) 50}}...{{end}}</h2>
+    </a>
+    <time>{{ .Date.Format "Jan 2, 2006" }}</time>
+    <p> {{ .Summary }} </p>
+    <a href="{{ .Permalink }}"> Read more  </a>
+
+</li>
